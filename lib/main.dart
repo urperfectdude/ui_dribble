@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:ui_dribble/pages/home_page.dart';
 
@@ -14,7 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
-      theme: ThemeData(brightness: Brightness.dark),
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primarySwatch: Colors.orange,
+      ),
     );
   }
 }
