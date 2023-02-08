@@ -12,9 +12,6 @@ dependencies:
 
   google_fonts: ^4.0.3
 
-assets:
-  - lib/images/
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
